@@ -4,10 +4,11 @@
   "description": "This app provide 5 different password",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "start":"nodemon index.js",
     "type": "git",
     "url": "git+https://github.com/hakansaglam29/password-creater-mern.git"
   },
