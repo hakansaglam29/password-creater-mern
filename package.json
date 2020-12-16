@@ -1,0 +1,30 @@
+{
+  "name": "password-creater-mern",
+  "version": "1.0.0",
+  "description": "This app provide 5 different password",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "start":"nodemon index.js",
+    "type": "git",
+    "url": "git+https://github.com/hakansaglam29/password-creater-mern.git"
+  },
+  "keywords": [
+    "password"
+  ],
+  "author": "hakan saglam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hakansaglam29/password-creater-mern/issues"
+  },
+  "homepage": "https://github.com/hakansaglam29/password-creater-mern#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "password-generator": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
